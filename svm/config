@@ -1,0 +1,7 @@
+Host myaws
+    HostName ec2-3-16-53-88.us-east-2.compute.amazonaws.com
+    User ubuntu
+    StrictHostKeyChecking no
+    LocalForward 5901 localhost:5901
+    IdentityFile /root/aws-keys.pem
+
